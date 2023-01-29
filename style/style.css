@@ -1,0 +1,29 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.btn {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: rgba(190, 189, 193, 0.492);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.container {
+
+    width: 900px;
+    margin: auto;
+}
+
+.form {
+    margin: 1%;
+    padding: 0.1%;
+    background-color: rgb(202, 236, 225);
+}
