@@ -3,27 +3,40 @@ body {
 }
 
 .btn {
-    margin: 5px;
-    padding: 5px;
+    margin: 1%;
+    padding: 1%;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 10%;
     font-weight: bold;
 }
 
 .btn:hover {
     color: rgba(190, 189, 193, 0.492);
-    border: 1px solid black;
-    border-radius: 5px;
 }
 
 .container {
-
     width: 900px;
     margin: auto;
+    background-color: rgb(202, 236, 225);
 }
 
 .form {
     margin: 1%;
     padding: 0.1%;
-    background-color: rgb(202, 236, 225);
+    display: flex;
+    align-items: center;
 }
+
+.playlists{
+    display: flex;
+}
+
+div > h3{
+    margin: 1%;
+    padding-top: 2%;
+}
+div > h1{
+    margin: 1%;
+    padding-top: 2%;
+}
+

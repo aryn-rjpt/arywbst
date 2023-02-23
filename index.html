@@ -8,7 +8,7 @@
     <title>Kaam Chalau</title>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
-    
+
 </head>
 
 <body>
@@ -19,12 +19,19 @@
             <input type="text" name="YouTube Search" size=50 placeholder="YouTube Search">
         </form>
         <form class="form">
-            <p>Click here to open WhatsApp</p>
-            <button class="btn" onclick="window.open('https://web.whatsapp.com/')" target="_blank">WhatsApp</button>
+            <button class="btn wtsp" onclick="window.open('https://web.whatsapp.com/')"
+                target="_blank">WhatsApp</button>
+            <h3>Click here to open WhatsApp</h3>
         </form>
-        <form class="form">
-            <button class="btn" href="https://www.youtube.com/" target="_blank">YouTube</button>
-        </form>
+
+    </div>
+
+    <div class="container">
+        <h3>Youtube Playlists</h3>
+        <div class="playlists">
+            <button class="django btn" onclick="window.open('https://www.youtube.com/playlist?list=PLu0W_9lII9ah7DDtYtflgwMwpT3xmjXY9')" target="_blank">Django</button>
+            <button class="Webdev btn"onclick="window.open('https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg')" target="_blank">WebDev</button>
+        </div>
     </div>
 
 </body>
